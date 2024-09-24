@@ -34,3 +34,10 @@ CREATE TABLE termini (
     FOREIGN KEY (terensifra) REFERENCES tereni(sifra),
     FOREIGN KEY (igracisifra) REFERENCES igraci(sifra)
 );
+
+
+insert into tereni(naziv,vrstapodloge,maxigraca) values
+('Wimbledon','Trava',4),
+('Roland Garros','Zemlja',4),
+('US Open','Beton',4);
+('Australian Open','Tvrda podloga',4);
