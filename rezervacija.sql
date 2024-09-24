@@ -39,5 +39,6 @@ CREATE TABLE termini (
 insert into tereni(naziv,vrstapodloge,maxigraca) values
 ('Wimbledon','Trava',4),
 ('Roland Garros','Zemlja',4),
-('US Open','Beton',4);
+('US Open','Beton',4),
 ('Australian Open','Tvrda podloga',4);
+
